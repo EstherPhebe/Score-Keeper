@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            /* display: grid; */
+            place-items: center;
+            background-color: burlywood;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 8% 4%;
+            text-align: center;
+            height: 100%;
+            width: 100;
+        }
+
+        input {
+            display: block;
+            margin: 0 45%;
+            padding: 0.5%;
+            border: firebrick solid 2px;
+        }
+
+        button:hover {
+            background-color: honeydew;
+            border: greenyellow solid 3px;
+        }
+
+        #p-one, #p-two {
+            background-color: cornsilk;
+            display: inline-block;
+            margin: 4% 1% 0;
+            padding: 5px;
+        }
+
+        #reset {
+            background-color: cornsilk;
+            display: block;
+            margin: 4% 46% 0;
+            padding: 5px; 
+        }
+
+        .color {
+           color: green; 
+        }
+    </style>
+    <h1><span>0</span> to <span>0</span></h1>
+    <p>Playing to : <span>5</span></p>
+    <input type="number" min="5" max="20" value="5">
+    <button id="p-one">Player One</button>
+    <button id="p-two">Player Two</button>
+    <button id="reset">Reset</button>
+
+
+
+    <script type="text/javascript" src="scoreK.js"></script>
+</body>
+</html>
